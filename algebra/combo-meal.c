@@ -28,12 +28,9 @@ int parse_int(char*);
 
 int profit(int b, int s, int c) {
     // Return the fixed profit.
-
-    int value;
-
-    value = (s + b ) - c ; 
     
-    return value ;
+    
+    return (s + b ) - c  ;
 }
 
 int main()
